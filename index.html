@@ -107,4 +107,15 @@
     
 </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+  FUN1();
+  function  FUN1() {
+    
+     setTimeout(function(){
+      alert('三秒到了！')
+     },3000)
+    $('.text').prepend('<a>我是新增的元素</a>');
+  }
+</script>
 </html>
